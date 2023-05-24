@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glossary Confirm Identity</title>
+  <link rel="stylesheet" href="css files/dex.css">
+  <link rel="shortcut icon" href="img/glossaryicon.png" type="image/x-icon">
+  <script src="script.js"></script>
+</head>
+<body class="body">
+  <form id="passwordForm">
+    <label class="text" for="pswd">Enter your password</label>
+    <input class="pass" type="password" id="pswd">
+    <button class="sub" type="button" onclick="checkPswd(event);">Submit</button>
+  </form>
+  <a class="forgot" target="_blank" href="getlost.html">Forgot Password</a>
+
+  <button onclick="goToHomepage()">Go to Homepage</button>
+
+    <script>
+        function goToHomepage() {
+            window.location.href = "../../mainws.html"; // Replace "homepage.html" with the actual URL of your homepage
+        }
+    </script>
+</body>
+</html>

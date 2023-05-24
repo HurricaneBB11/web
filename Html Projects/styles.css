@@ -1,0 +1,41 @@
+body {
+    background-color: #0D1F22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #DDCECD;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    color: #DDCECD;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
