@@ -1,3 +1,4 @@
+// script.js
 // Quiz data
 var questions = [
 	{
