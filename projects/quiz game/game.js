@@ -1,17 +1,27 @@
 // Quiz data
 var questions = [
 	{
-	  question: "What is the capital of France?",
-	  options: ["Paris", "London", "Rome", "Madrid"],
-	  answer: 0
+		question: "What is the capital of France?",
+		options: ["Paris", "London", "Rome", "Madrid"],
+		answer: 0
 	},
 	{
-	  question: "Which planet is known as the Red Planet?",
-	  options: ["Venus", "Mars", "Jupiter", "Saturn"],
-	  answer: 1
+		question: "Which planet is known as the Red Planet?",
+		options: ["Venus", "Mars", "Jupiter", "Saturn"],
+		answer: 1
+	},
+	{
+		question: "who is dead",
+		options: ["batman", "mr clean", "dobby", "the coder of this project"],
+		answer: 3
+	},
+	{
+		question: "",
+		options: ["", "", "", ""],
+		answer: 1
 	},
 	// Add more questions...
-  ];
+];
   
   // Game variables
   var currentQuestion = 0;
@@ -19,11 +29,22 @@ var questions = [
   
   // Initialize the quiz
   function init() {
+	shuffleQuestions();
 	displayQuestion();
   
 	// Add event listener to the submit button
 	var submitBtn = document.getElementById("submitBtn");
 	submitBtn.addEventListener("click", submitAnswer);
+  }
+  
+  // Shuffle the order of questions
+  function shuffleQuestions() {
+	for (var i = questions.length - 1; i > 0; i--) {
+	  var j = Math.floor(Math.random() * (i + 1));
+	  var temp = questions[i];
+	  questions[i] = questions[j];
+	  questions[j] = temp;
+	}
   }
   
   // Display the current question
