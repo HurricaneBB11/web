@@ -185,13 +185,11 @@ var questions = [
 	quizContainer.style.display = "none";
   
 	var scoreContainer = document.getElementById("scoreContainer");
-	var result = document.createElement("h2");
+	var result = document.getElementById("result");
 	result.innerHTML = "Quiz Completed";
-	var scoreMsg = document.createElement("p");
+	var scoreMsg = document.getElementById("scoreMsg");
 	scoreMsg.innerHTML = "Your score: " + score + " out of " + questions.length;
   
-	scoreContainer.appendChild(result);
-	scoreContainer.appendChild(scoreMsg);
 	scoreContainer.style.display = "block";
   }
   
