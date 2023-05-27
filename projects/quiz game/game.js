@@ -1,27 +1,27 @@
 // Quiz data
 var questions = [
 	{
-		question: "What is the capital of France?",
-		options: ["Paris", "London", "Rome", "Madrid"],
-		answer: 0
+	  question: "What is the capital of France?",
+	  options: ["Paris", "London", "Rome", "Madrid"],
+	  answer: 0
 	},
 	{
-		question: "Which planet is known as the Red Planet?",
-		options: ["Venus", "Mars", "Jupiter", "Saturn"],
-		answer: 1
+	  question: "Which planet is known as the Red Planet?",
+	  options: ["Venus", "Mars", "Jupiter", "Saturn"],
+	  answer: 1
 	},
 	{
-		question: "who is dead",
-		options: ["batman", "mr clean", "dobby", "the coder of this project"],
-		answer: 3
+	  question: "Who is dead?",
+	  options: ["Batman", "Mr. Clean", "Dobby", "The coder of this project"],
+	  answer: 3
 	},
 	{
-		question: "",
-		options: ["", "", "", ""],
-		answer: 1
+	  question: "What is the largest ocean in the world?",
+	  options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+	  answer: 3
 	},
 	// Add more questions...
-];
+  ];
   
   // Game variables
   var currentQuestion = 0;
