@@ -1,0 +1,27 @@
+    /* CSS styles */
+    body {
+		font-family: Arial, sans-serif;
+		margin: 20px;
+	  }
+  
+	  h1 {
+		color: #333;
+	  }
+  
+	  .link {
+		display: inline-block;
+		margin-right: 10px;
+	  }
+  
+	  .link a {
+		display: inline-block;
+		padding: 10px;
+		background-color: #3498db;
+		color: #fff;
+		text-decoration: none;
+		border-radius: 5px;
+	  }
+  
+	  .link a:hover {
+		background-color: #2980b9;
+	  }
