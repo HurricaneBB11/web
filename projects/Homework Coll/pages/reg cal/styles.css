@@ -35,7 +35,7 @@ body {
   }
   
   .calculator input[type="text"] {
-	width: 100%;
+	width: 90%;
 	height: 40px;
 	font-size: 24px;
 	margin-bottom: 10px;
