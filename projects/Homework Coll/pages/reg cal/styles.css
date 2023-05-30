@@ -35,11 +35,11 @@ body {
   }
   
   .calculator input[type="button"]:hover {
-	background-color: #e0e0e0;
+	background-color: #000000;
   }
   
   .calculator input[type="button"]:active {
-	background-color: #c0c0c0;
+	background-color: #9296cf;
   }
   
   .calculator .clear-button {
@@ -48,7 +48,7 @@ body {
 	height: 64px;
 	margin: 5px;
 	font-size: 24px;
-	background-color: #ff4136;
+	background-color: #000000;
 	color: #000000;
 	border: none;
 	cursor: pointer;
@@ -56,11 +56,12 @@ body {
   }
   
   .calculator .clear-button:hover {
-	background-color: #e6271e;
+	background-color: #000000;
   }
   
   .calculator .clear-button:active {
-	background-color: #b40907;
+	background-color: #000000;
+	color: #000000;
   }
   
   .calculator input[type="text"] {
