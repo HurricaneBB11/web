@@ -53,5 +53,7 @@ body {
   #result {
 	margin-top: 20px;
 	text-align: left;
+	text-align: center;
+	color: #22031F;
   }
   
